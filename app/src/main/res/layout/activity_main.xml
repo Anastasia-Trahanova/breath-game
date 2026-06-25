@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a2e">
+
+    <com.example.breathgame.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ЖМИ НА ЭКРАН"
+        android:textColor="#FFD700"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tutorialText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ВДОХ (слабо) ↔ ВЫДОХ (сильно)"
+        android:textColor="#AAAAAA"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
