@@ -232,8 +232,8 @@ public class GameView extends View implements View.OnTouchListener {
         breathIndicatorPaint.setStyle(Paint.Style.FILL);
         breathIndicatorPaint.setColor(Color.WHITE);
         breathIndicatorPaint.setTextSize(20);
-        canvas.drawText("ВДОХ", indicatorX - 30, indicatorY + indicatorHeight + 40);
-        canvas.drawText("ВЫДОХ", indicatorX - 30, indicatorY - 20);
+        canvas.drawText("ВДОХ", indicatorX - 30, indicatorY + indicatorHeight + 40, breathIndicatorPaint);
+        canvas.drawText("ВЫДОХ", indicatorX - 30, indicatorY - 20, breathIndicatorPaint);
         
         // Статус дыхания
         breathIndicatorPaint.setColor(Color.WHITE);
